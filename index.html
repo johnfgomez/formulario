@@ -124,10 +124,7 @@ input {
   -ms-transition: all 0.3s ease-in-out;
 }
 
-.button:hover {
-  background: #b3aca7;
-  color: #e2dedb;
-}
+.button {width: 100%;}
 		
 input:hover {
   background: #b3aca7;
@@ -185,29 +182,6 @@ textarea:hover {
 </head>
 <body>
 
- <form name="contact" method="POST" data-netlify="true">
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>   
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Your Role: <select name="role[]" multiple>
-      <option value="leader">Leader</option>
-      <option value="follower">Follower</option>
-    </select></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-    <button id="submit" type="submit">Send</button>
-  </p>
-</form>
-	
-	
-	
 	
 	
     <header>MINIMALISTIC FORM</header>
