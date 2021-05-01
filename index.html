@@ -197,18 +197,31 @@ textarea:hover {
 	
     <header>COTIZACIÓN</header>
 
-<form id="form" method="POST" data-netlify="true" class="topBefore">
+<form id="form" method="POST" data-netlify="true" >
 		
-		  <input id="name" type="text" placeholder="NAME">
+		  <input id="name" type="text" placeholder="NOMBRE">
 		  <input id="email" type="text" placeholder="E-MAIL">
-		  <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
+		<label>  <textarea id="message" type="text" placeholder="MENSAJE"></textarea></label>
   <button id="submit" type="submit" ">Enviar</button>
   
 </form>
     
     
     
+<form name="contact" method="POST" data-netlify="true">
 
+    <label>Your Name: <input type="text" name="name" /></label>   
+
+    <label>Your Email: <input type="email" name="email" /></label>
+  
+    <label>Message: <textarea name="message"></textarea></label>
+
+    <button type="submit">Send</button>
+  
+</form>
+				     
+				     
+				     
 
 </body>
 </html>
